@@ -188,7 +188,7 @@ Step By Step:
 1. Sign into your Github account.
 2. Click on the + with down facing arrow next to it, and select **new repository**. You will be presented with a page that contains several options.
 
-![](/home/lcoghill/Desktop/github_project.png) 
+![](/static/github_project.png) 
 
 
 Let's go through each one. 
