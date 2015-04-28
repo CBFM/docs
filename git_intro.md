@@ -168,10 +168,10 @@ Now say we haven't touched this project for a number of... weeks. We are ready t
 
 	git log
 
-Here we see some basic information about our commit. 
-1. **Commit SHA**: A unique commit identifier for each commit.
-2. **Author**: Who made the commit
-3. **Date**: When the commit was made
+Here we see some basic information about our commit.  
+1. **Commit SHA**: A unique commit identifier for each commit.  
+2. **Author**: Who made the commit  
+3. **Date**: When the commit was made  
 4. And the **commit message** we added during our commit. 
 
 As you are probably starting to see, the commit message can be critical. You want to use enough information to be informative, but not so much that it can't be read quickly in the log file.
