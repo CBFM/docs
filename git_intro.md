@@ -4,7 +4,8 @@
 ####Computational Biology Course
 ***
 
-**Version**: 0.2.6
+**Version**: 0.2.7
+
 **Last Updated**: Tuesday, 28. April 2015 
 
 ***
@@ -105,7 +106,7 @@ Ok, now lets create a project file.
 
 Now let's enter some text:
 
-** *Charles Darwin* **
+***Charles Darwin***
 
 Then we can exit and save our file.
 
