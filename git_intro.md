@@ -19,7 +19,7 @@
 1. [Remote Servers](#remote)
 1. [Branches](#branches)
 1. [Cloning other Repos](#clone)
-1. [Useful Information](#useful)
+1. [Useful Resources](#useful)
 
 ***
 
