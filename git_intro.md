@@ -4,21 +4,22 @@
 ####Computational Biology Course
 ***
 
-**Version**: 0.2.6
+**Version**: 0.2.7
+
 **Last Updated**: Tuesday, 28. April 2015 
 
 ***
 
 #### Table of Contents
 
-[About Git](#about)
-[Installing Git](#install)
-[Configuring Git](#configure)
-[Tracking Changes](#track)
-[Remote Servers](#remote)
-[Branches](#branches)
-[Cloning other Repos](#clone)
-[Useful Information](#useful)
+1. [About Git](#about)
+1. [Installing Git](#install)
+1. [Configuring Git](#configure)
+1. [Tracking Changes](#track)
+1. [Remote Servers](#remote)
+1. [Branches](#branches)
+1. [Cloning other Repos](#clone)
+1. [Useful Resources](#useful)
 
 ***
 
@@ -105,7 +106,7 @@ Ok, now lets create a project file.
 
 Now let's enter some text:
 
-** *Charles Darwin* **
+***Charles Darwin***
 
 Then we can exit and save our file.
 
@@ -343,12 +344,12 @@ if it worked correctly you will get the help screen for RAxML. Now, anytime ther
 On a side note, Github has some great features. Make sure to 'follow' your favorite developers and 'star' your favorite packages. That will provide you with notifications any time those repositories are updated. 
 
 ***
-
+<a name="useful"></a>
 #### Useful Resources
 
-[Git](http://git-scm.com/) - Primary Git SCM website.
-[Try Git - Code School](https://try.github.io/levels/1/challenges/1) - More interactive practice with Git.
-[Free Git Pro Book](http://git-scm.com/book/en/v2) Great free in-depth book about Git. 
-[Github.com](https://github.com/) - Free collaborative web-based portal for Git.
-[Bitbucket.org](https://bitbucket.org/) - Free collaborative web-based protal for Git.
+1. [Git](http://git-scm.com/) - Primary Git SCM website.
+1. [Try Git - Code School](https://try.github.io/levels/1/challenges/1) - More interactive practice with Git.
+1. [Free Git Pro Book](http://git-scm.com/book/en/v2) Great free in-depth book about Git. 
+1. [Github.com](https://github.com/) - Free collaborative web-based portal for Git.
+1. [Bitbucket.org](https://bitbucket.org/) - Free collaborative web-based protal for Git.
 
