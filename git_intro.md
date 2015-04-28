@@ -256,7 +256,7 @@ this command reverses all changes since the last commit. If we check darwin.txt 
 <a name="branches"></a>
 
 #### Git Branches
-One final introductory topic I would like to cover is the idea of branches. Branches, as the name suggests, are different copies of the same Git repository where changes made to one copy don't affect the primary copy. You may have noticed we have been using the parameter "master" when we did pull or push commands. Master is the main branch of any repository. You can have other branches, work with them, push and pull them, and it will never change the master branch until you **merge** them.  The graphic below illustrates the idea of branching:
+One final introductory topic I would like to cover is the idea of branches. Branches, as the name suggests, are different copies of the same Git repository where changes made to one copy don't affect the primary copy. You may have noticed we have been using the parameter "master" when we did pull or push commands. Master is the main branch of any repository. You can have other branches, work with them, push and pull them, and it will never change the master branch until you **merge** them. The graphic below, from the book [Pro Git](http://git-scm.com/book/en/v2), illustrates the idea of branching nicely:
 
 ![](/static/advance-master.png) 
 
