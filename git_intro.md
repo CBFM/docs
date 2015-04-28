@@ -11,14 +11,14 @@
 
 #### Table of Contents
 
-[About Git](#about)
-[Installing Git](#install)
-[Configuring Git](#configure)
-[Tracking Changes](#track)
-[Remote Servers](#remote)
-[Branches](#branches)
-[Cloning other Repos](#clone)
-[Useful Information](#useful)
+1. [About Git](#about)
+1. [Installing Git](#install)
+1. [Configuring Git](#configure)
+1. [Tracking Changes](#track)
+1. [Remote Servers](#remote)
+1. [Branches](#branches)
+1. [Cloning other Repos](#clone)
+1. [Useful Information](#useful)
 
 ***
 
@@ -343,7 +343,7 @@ if it worked correctly you will get the help screen for RAxML. Now, anytime ther
 On a side note, Github has some great features. Make sure to 'follow' your favorite developers and 'star' your favorite packages. That will provide you with notifications any time those repositories are updated. 
 
 ***
-
+<a name="useful"></a>
 #### Useful Resources
 
 [Git](http://git-scm.com/) - Primary Git SCM website.
