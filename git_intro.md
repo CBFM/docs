@@ -110,9 +110,9 @@ Now let's enter some text:
 
 Then we can exit and save our file.
 
-**Ctl-X**
-**Y**
-**Enter**
+**Ctl-X**  
+**Y**  
+**Enter**  
 
 If we check on the repository status again:
 
