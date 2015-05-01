@@ -45,7 +45,7 @@ In order to install git on Ubuntu Linux (the virtual machine for this course) we
 
 	sudo apt-get install git
 
-Type **Enter**
+Press **Enter**
 
 ***
 
