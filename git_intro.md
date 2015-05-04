@@ -417,7 +417,7 @@ Then let's clean up a little bit by removing left over files from the compiler.
 
 It make take a short while to build on the virtual machine. When that is finished, we can test RAxML with the following command:
 
-	./raxmlHPC -help
+	./raxmlHPC -help | less
 
 if it worked correctly you will get the help screen for RAxML. Now, anytime there is a new release, you can simply pull in the changes with *git pull*, and rerun the make command to have the latest version.
 
