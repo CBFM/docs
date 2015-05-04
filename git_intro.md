@@ -330,7 +330,11 @@ So our critical change is saved on branch **test**, but what if we decided our e
 
 First, we need to switch back to the master branch.
 
-	git checkout master
+	git checkout master  
+	
+> Switched to branch 'master'  
+> Your branch is up-to-date with 'origin/master'.  
+
 
 Taking a quick look at our file darwin.txt, you can see the new changes aren't there. 
 
@@ -338,7 +342,12 @@ Taking a quick look at our file darwin.txt, you can see the new changes aren't t
 
 That's a shame. We can fix it though. In order to incorporate them, we just need to merge our test branch with our master branch using the following command:
 
-	git merge test
+	git merge test  
+
+> Updating 0aecd7a..4f73941  
+> Fast-forward  
+>  darwin.txt | 1 +  
+>  1 file changed, 1 insertion(+)  
 
 now if we look at our darwin.txt file, we will see the changes there.
 
@@ -346,8 +355,19 @@ now if we look at our darwin.txt file, we will see the changes there.
 
 all that is left to do is clean up after ourselves. Delete the old branch, and push our changes to the remote server.
 
-	git branch -d test
-	git push origin master
+	git branch -d test  
+	
+> Deleted branch test (was 4f73941).
+
+	git push origin master  
+
+> Counting objects: 5, done.  
+> Compressing objects: 100% (2/2), done.  
+> Writing objects: 100% (3/3), 331 bytes | 0 bytes/s, done.  
+> Total 3 (delta 0), reused 0 (delta 0)  
+> To https://github.com/lcoghill/darwin.git  
+>    0aecd7a..4f73941  master -> master  
+
 
 ***
 
