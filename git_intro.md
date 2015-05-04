@@ -176,8 +176,7 @@ Now say we haven't touched this project for a number of... weeks. We are ready t
 > commit 2739ad0fe4f08bb62f41097f6ac791e3fe972471  
 > Author: Lyndon Coghill <lcoghill@fieldmuseum.org>  
 > Date:   Mon May 4 10:40:31 2015 -0500  
-
-    Added Darwin's name
+> Added Darwin's name
 
 Here we see some basic information about our commit.  
 1. **Commit SHA**: A unique commit identifier for each commit.  
