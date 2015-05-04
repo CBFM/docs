@@ -419,9 +419,11 @@ It make take a short while to build on the virtual machine. When that is finishe
 
 	./raxmlHPC -help | less
 
-if it worked correctly you will get the help screen for RAxML. Now, anytime there is a new release, you can simply pull in the changes with *git pull*, and rerun the make command to have the latest version.
+if it worked correctly you will get the help screen for RAxML. Now, anytime there is a new release, you can simply pull in the changes with `git pull`, and rerun the `make -f Makefile.gcc` command to have the latest version.
 
-On a side note, Github has some great features. Make sure to 'follow' your favorite developers and 'star' your favorite packages. That will provide you with notifications any time those repositories are updated. 
+***
+
+On a side note, Github has some great features. Make sure to *follow* your favorite developers and *star* your favorite packages. That will provide you with notifications any time those repositories are updated. 
 
 ***
 <a name="useful"></a>
