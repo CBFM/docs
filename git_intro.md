@@ -246,10 +246,10 @@ You will be taken to a page where you can make changes to your file, save them a
 
 ![](/static/github_edit.png) 
 
-Let's go ahead and add a second line to our file: 
-1. "On the Origin of Species" or something similar. 
-2. Add a commit message
-3. Click **Commit Changes**
+Let's go ahead and add a second line to our file:  
+1. "On the Origin of Species" or something similar.   
+2. Add a commit message  
+3. Click **Commit Changes**  
 
 We now have some changes on our remote copy of the repository, we want to copy those changes locally. We can do that with the git pull command. 
 
