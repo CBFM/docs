@@ -29,10 +29,10 @@
 
 Version control systems record changes to a file or set of files over time so that you can recall and review specific changes later. They have traditionally been used to manage large source code projects for software development. However, in the last few years more nuanced uses have started to emerge. Researchers are using VCS for tracking datasets, writers are using them to track changes in manuscripts and more recently people are using them to distribute and maintain websites. 
 
-Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency. Git adds several features previous VCS / SCM systems didn't have: 
-1. Context Switching
-2. Role-based control
-3. Disposable experimentation
+Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency. Git adds several features previous VCS / SCM systems didn't have:   
+1. Context Switching  
+2. Role-based control  
+3. Disposable experimentation  
 
 These features along with Git's small size, speed, cross-platform availability and more recently web-based distribution platforms (Github, Bitbucket, etc.) have made it the standard in VCM. 
 
@@ -160,13 +160,23 @@ OK, so git should be tracking our file again. The next step is to commit those c
 
 Lets commit our changes:
 
-	git commit -m "Added Darwin's name"
+	git commit -m "Added Darwin's name"  
+	
+> [master (root-commit) 2739ad0] Added Darwin's name  
+> 1 file changed, 1 insertion(+)  
+> create mode 100644 darwin.txt  
+
 
 The command above is pretty self explanatory. The -m option is one way we can specify a commit message. This message will always be connected to the commit, so no matter who is looking at the changes, they will be able to get an idea of what changes were made, and why they were made.
 
 Now say we haven't touched this project for a number of... weeks. We are ready to dig back into it, but when we open the file, we see things we don't remember. We can remind ourselves of what changes were made, and why with the git log command. 
 
-	git log
+	git log  
+	
+> commit 2739ad0fe4f08bb62f41097f6ac791e3fe972471  
+> Author: Lyndon Coghill <lcoghill@fieldmuseum.org>  
+> Date:   Mon May 4 10:40:31 2015 -0500  
+> Added Darwin's name
 
 Here we see some basic information about our commit.  
 1. **Commit SHA**: A unique commit identifier for each commit.  
@@ -182,20 +192,22 @@ As you are probably starting to see, the commit message can be critical. You wan
 
 #### Using a remote Git Server
 
-Now we remember what changes we have made and why. You've decided your work is at a point where you can't risk losing it, or you want to distribute it to collaborators or the world. That's where a service like [Github](www.github.com) or [Bitbucket](www.bitbucket.org) comes in. These are remote Git services that will save your Git repositories on a different server so you or others can always retreive them and see the commits and changes made over time. For personal use, this is a great way to backup your code / projects. For sharing, Github has become the defacto standard to share open-source projects as we will see shortly. Let's go ahead and add a remote server / project. First, lets go to our Github accounts and create an empty repository. 
+Now we remember what changes we have made and why. You've decided your work is at a point where you can't risk losing it, or you want to distribute it to collaborators or the world. That's where a service like [Github](www.github.com) or [Bitbucket](www.bitbucket.org) comes in. These are remote Git services that will save your Git repositories on a different server so you or others can always retreive them and see the commits and changes made over time. For personal use, this is a great way to backup your code / projects. For sharing, Github has become the defacto standard to share open-source projects as we will see shortly. Let's go ahead and add a remote server / project. First, let's take a few seconds and create a Github account if you don't have one already. Just go to www.github.com and sign up. It's free and easy.
 
-Step By Step:
-1. Sign into your Github account.
-2. Click on the + with down facing arrow next to it, and select **new repository**. You will be presented with a page that contains several options.
+Lets go to our Github accounts and create an empty repository.   
+
+Step By Step:  
+1. Sign into your Github account.  
+2. Click on the + with down facing arrow next to it, and select **new repository**. You will be presented with a page that contains several options.  
 
 ![](/static/github_project.png) 
 
 
-Let's go through each one. 
-1. Repository Name: The project name. In our case let's just call it **darwin**.
-2. Description: A short, optional description of your project. We can leave this blank.
-3. Public / Private: On Github, all projects are public (open) as default. This means anyone can see everything in them. Most of the time this is OK, but if you want to keep a project private, or only share it with a few people, you'd want to choose the private option. Github charges a small monthly fee for private projects, but they are free on Bitbucket.
-4. Initialize this repository with a README: this can be helpful for others viewing your project to know what it is about. For our case, we can leave this blank for now.
+Let's go through each one.  
+1. Repository Name: The project name. In our case let's just call it **darwin**.  
+2. Description: A short, optional description of your project. We can leave this blank.  
+3. Public / Private: On Github, all projects are public (open) as default. This means anyone can see everything in them. Most of the time this is OK, but if you want to keep a project private, or only share it with a few people, you'd want to choose the private option. Github charges a small monthly fee for private projects, but they are free on Bitbucket.  
+4. Initialize this repository with a README: this can be helpful for others viewing your project to know what it is about. For our case, we can leave this blank for now.  
 
 Finally, click the green **Create repository** button. 
 
