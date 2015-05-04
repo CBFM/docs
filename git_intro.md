@@ -388,16 +388,38 @@ we will see that the latest version is **8.1.20**.
 In order to get and use this latest version, we just need to **clone** the repository to our local machine, and build the executable file. Far more complicated sounding than it is. We can do it with the five simple commands below:
 	
 	cd ~
-	git clone https://github.com/stamatak/standard-RAxML
+	git clone https://github.com/stamatak/standard-RAxML  
+
+> Cloning into 'standard-RAxML'...  
+> remote: Counting objects: 2198, done. 
+> remote: Total 2198 (delta 0), reused 0 (delta 0), pack-reused 2198  
+> Receiving objects: 100% (2198/2198), 26.08 MiB | 8.64 MiB/s, done.  
+> Resolving deltas: 100% (1574/1574), done.  
+> Checking connectivity... done.  
+
+Now we need to compile the software. Much easier than it sounds.  
+
 	cd standard-RAxML
-	make -f Makefile.gcc
+	make -f Makefile.gcc  
+	
+> gcc  -D_GNU_SOURCE -fomit-frame-pointer -funroll-loops -O2 -msse    -c -o axml.o axml.c  
+> gcc  -D_GNU_SOURCE -fomit-frame-pointer -funroll-loops -O2 -msse    -c -o optimizeModel.o optimizeModel.c  
+> .  
+> .  
+> .  
+> gcc  -D_GNU_SOURCE -fomit-frame-pointer -funroll-loops -O2 -msse    -c -o mem_alloc.o mem_alloc.c  
+> gcc  -c -o eigen.o eigen.c   
+> gcc  -o raxmlHPC axml.o  optimizeModel.o multiple.o searchAlgo.o topologies.o parsePartitions.o treeIO.o models.o bipartitionList.o rapidBootstrap.o evaluatePartialGenericSpecial.o evaluateGenericSpecial.o newviewGenericSpecial.o makenewzGenericSpecial.o   classify.o fastDNAparsimony.o fastSearch.o leaveDropping.o rmqs.o rogueEPA.o ancestralStates.o  mem_alloc.o  eigen.o -lm   
+
+Then let's clean up a little bit by removing left over files from the compiler.  
+
 	rm *.o
 
 It make take a short while to build on the virtual machine. When that is finished, we can test RAxML with the following command:
 
 	./raxmlHPC -help
 
-if it worked correctly you will get the help screen for RAxML. Now, anytime there is a new release, you can simply pull in the changes, and rerun the make command to have the latest version.
+if it worked correctly you will get the help screen for RAxML. Now, anytime there is a new release, you can simply pull in the changes with *git pull*, and rerun the make command to have the latest version.
 
 On a side note, Github has some great features. Make sure to 'follow' your favorite developers and 'star' your favorite packages. That will provide you with notifications any time those repositories are updated. 
 
