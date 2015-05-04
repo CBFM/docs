@@ -226,6 +226,13 @@ Now that we have told our local copy of git where the server is located, we want
 
 Enter your username and password and press **Enter**. One note, Git will not display any characters when typing your password. 
 
+> Counting objects: 3, done.  
+> Writing objects: 100% (3/3), 241 bytes | 0 bytes/s, done.  
+> Total 3 (delta 0), reused 0 (delta 0)  
+> To https://github.com/lcoghill/darwin.git  
+>  * [new branch]      master -> master  
+> Branch master set up to track remote branch master from origin.  
+
 Let's go to Github and see if our project is there and make some changes to it. In reality, these changes could be from a different computer, or made by a collaborator and pushed to our remote server. In our case, we will make them online for simplicity. 
 
 If everything worked, you should be able to see your file under the darwin project on Github.com, by visiting [https://github.com/username/darwin/](https://github.com/username/darwin/) and it should look something like the image below.
