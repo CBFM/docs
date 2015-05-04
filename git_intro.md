@@ -4,7 +4,7 @@
 ####Computational Biology Course
 ***
 
-**Version**: 0.2.7
+**Version**: 0.2.8
 
 **Last Updated**: Tuesday, 28. April 2015 
 
