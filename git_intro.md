@@ -30,9 +30,9 @@
 Version control systems record changes to a file or set of files over time so that you can recall and review specific changes later. They have traditionally been used to manage large source code projects for software development. However, in the last few years more nuanced uses have started to emerge. Researchers are using VCS for tracking datasets, writers are using them to track changes in manuscripts and more recently people are using them to distribute and maintain websites. 
 
 Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency. Git adds several features previous VCS / SCM systems didn't have: 
-1. Context Switching
-2. Role-based control
-3. Disposable experimentation
+1. Context Switching  
+2. Role-based control  
+3. Disposable experimentation  
 
 These features along with Git's small size, speed, cross-platform availability and more recently web-based distribution platforms (Github, Bitbucket, etc.) have made it the standard in VCM. 
 
