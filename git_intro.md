@@ -314,7 +314,10 @@ Now, we can make some changes to our file. Let's open up the file and add the fo
 Save the file. Then we need to add the file to git tracker, and make our commit.
 
 	git add darwin.txt
-	git commit darwin.txt -m 'Added obvious fact'
+	git commit darwin.txt -m 'Added obvious fact'  
+	
+> [test 4f73941] Added obvious fact  
+> 1 file changed, 1 insertion(+)  
 
 Now if we run git status we will see our changes were commited to this branch. 
 
