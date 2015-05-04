@@ -160,11 +160,11 @@ OK, so git should be tracking our file again. The next step is to commit those c
 
 Lets commit our changes:
 
-	git commit -m "Added Darwin's name"
+	git commit -m "Added Darwin's name"  
 	
-> [master (root-commit) 2739ad0] Added Darwin's name
-> 1 file changed, 1 insertion(+)
-> create mode 100644 darwin.txt
+> [master (root-commit) 2739ad0] Added Darwin's name  
+> 1 file changed, 1 insertion(+)  
+> create mode 100644 darwin.txt  
 
 
 The command above is pretty self explanatory. The -m option is one way we can specify a commit message. This message will always be connected to the commit, so no matter who is looking at the changes, they will be able to get an idea of what changes were made, and why they were made.
