@@ -192,20 +192,22 @@ As you are probably starting to see, the commit message can be critical. You wan
 
 #### Using a remote Git Server
 
-Now we remember what changes we have made and why. You've decided your work is at a point where you can't risk losing it, or you want to distribute it to collaborators or the world. That's where a service like [Github](www.github.com) or [Bitbucket](www.bitbucket.org) comes in. These are remote Git services that will save your Git repositories on a different server so you or others can always retreive them and see the commits and changes made over time. For personal use, this is a great way to backup your code / projects. For sharing, Github has become the defacto standard to share open-source projects as we will see shortly. Let's go ahead and add a remote server / project. First, lets go to our Github accounts and create an empty repository. 
+Now we remember what changes we have made and why. You've decided your work is at a point where you can't risk losing it, or you want to distribute it to collaborators or the world. That's where a service like [Github](www.github.com) or [Bitbucket](www.bitbucket.org) comes in. These are remote Git services that will save your Git repositories on a different server so you or others can always retreive them and see the commits and changes made over time. For personal use, this is a great way to backup your code / projects. For sharing, Github has become the defacto standard to share open-source projects as we will see shortly. Let's go ahead and add a remote server / project. First, let's take a few seconds and create a Github account if you don't have one already. Just go to www.github.com and sign up. It's free and easy.
 
-Step By Step:
-1. Sign into your Github account.
-2. Click on the + with down facing arrow next to it, and select **new repository**. You will be presented with a page that contains several options.
+Lets go to our Github accounts and create an empty repository.   
+
+Step By Step:  
+1. Sign into your Github account.  
+2. Click on the + with down facing arrow next to it, and select **new repository**. You will be presented with a page that contains several options.  
 
 ![](/static/github_project.png) 
 
 
-Let's go through each one. 
-1. Repository Name: The project name. In our case let's just call it **darwin**.
-2. Description: A short, optional description of your project. We can leave this blank.
-3. Public / Private: On Github, all projects are public (open) as default. This means anyone can see everything in them. Most of the time this is OK, but if you want to keep a project private, or only share it with a few people, you'd want to choose the private option. Github charges a small monthly fee for private projects, but they are free on Bitbucket.
-4. Initialize this repository with a README: this can be helpful for others viewing your project to know what it is about. For our case, we can leave this blank for now.
+Let's go through each one.  
+1. Repository Name: The project name. In our case let's just call it **darwin**.  
+2. Description: A short, optional description of your project. We can leave this blank.  
+3. Public / Private: On Github, all projects are public (open) as default. This means anyone can see everything in them. Most of the time this is OK, but if you want to keep a project private, or only share it with a few people, you'd want to choose the private option. Github charges a small monthly fee for private projects, but they are free on Bitbucket.  
+4. Initialize this repository with a README: this can be helpful for others viewing your project to know what it is about. For our case, we can leave this blank for now.  
 
 Finally, click the green **Create repository** button. 
 
