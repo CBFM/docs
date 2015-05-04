@@ -253,7 +253,19 @@ Let's go ahead and add a second line to our file:
 
 We now have some changes on our remote copy of the repository, we want to copy those changes locally. We can do that with the git pull command. 
 
-	git pull origin master
+	git pull origin master  
+	
+> remote: Counting objects: 3, done.  
+> remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0  
+> Unpacking objects: 100% (3/3), done.  
+> From https://github.com/lcoghill/darwin  
+>  * branch            master     -> FETCH_HEAD  
+>    2739ad0..0aecd7a  master     -> origin/master  
+> Updating 2739ad0..0aecd7a  
+> Fast-forward  
+>  darwin.txt | 1 +  
+>  1 file changed, 1 insertion(+)  
+
 
 This should sync our local and rempote repositories, so that they contain the same files, commits, etc. 
 
