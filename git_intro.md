@@ -323,8 +323,8 @@ Now if we run git status we will see our changes were commited to this branch.
 
 	git status
 
->On branch test
->nothing to commit, working clean directory
+>On branch test  
+>nothing to commit, working clean directory  
 
 So our critical change is saved on branch **test**, but what if we decided our experimental changes work and we want to move it to our master branch. That is easy to do with git merge. 
 
