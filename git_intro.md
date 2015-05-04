@@ -198,7 +198,11 @@ Lets go to our Github accounts and create an empty repository.
 
 Step By Step:  
 1. Sign into your Github account.  
-2. Click on the + with down facing arrow next to it, and select **new repository**. You will be presented with a page that contains several options.  
+2. Click on the green "New Repository" button on the right hand side of the page. 
+ 
+![](/static/new_repo.png) 
+
+You will be presented with a page that contains several options.  
 
 ![](/static/github_project.png) 
 
